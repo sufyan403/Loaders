@@ -1,0 +1,11 @@
+framework module ActivityLoaders {
+  umbrella header "ActivityLoaders.h"
+
+  export *
+  module * { export * }
+}
+
+module ActivityLoaders.Swift {
+    header "ActivityLoaders-Swift.h"
+    requires objc
+}
